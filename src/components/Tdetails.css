@@ -1,0 +1,187 @@
+.bar{
+    background-color: black;
+    padding: 10px;
+    width: 100vw;
+}
+.content{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+}
+.head{
+    position: relative;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    margin: 20px;
+    padding: 15px;
+}
+.label{
+    display: block;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.field{
+    margin: 15px;
+    padding: 15px;
+    width: 30vw;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(233, 233, 233, 1)
+}
+.state{
+    margin: 20px;
+    padding: 15px;
+}
+.gstn{
+    margin: 20px;
+    padding: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#gstn{
+    margin-bottom: 0;
+}
+.gstd{
+    margin: 20px;
+    padding: 15px; 
+}
+.pan{
+    margin: 20px;
+    padding: 15px; 
+}
+.sech{
+    position: relative;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 65px;
+}
+.btn1{
+    margin: 30px;
+    padding: 10px;
+}
+.btns{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30vw;
+    margin-left: 15px;
+    font-size: 20px;
+
+}
+.line{
+    margin: 51px;
+    width: 32vw;
+    border: 2px solid black;
+    height: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.btns{
+    background-color: rgba(219, 68, 68, 1);
+    color: white;  
+}
+.btns:hover{
+    background-color: rgba(186, 57, 57,1);
+}
+.field:hover{
+    border: 2px solid black;
+}
+.cf{
+    display: block;
+    margin: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+.shead{
+    display: block;
+    margin: 24px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -1px;
+    margin-top: 34px;
+}
+.cf{
+    display: block;
+    margin: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 31px;
+}
+/* @media (max-width: 768px) {
+    .Group1000006220 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .Tick2, .Tick3, .Tick4, .Tick5, .Tick6 {
+      width: 63px;
+      height: 70px;
+      margin: 10px 0;
+      position: relative;
+    }
+  
+    .Arrow6, .Arrow7, .Arrow8, .Arrow9 {
+      width: 80%;
+      height: 0;
+      margin: 10px 0;
+      position: relative;
+      border: 2px solid black;
+    }
+  
+    .PersonalDetails, .BusinessDetails, .TaxDetails, .ShippingSettings, .ConfirmCreateAccount {
+      width: 100%;
+      margin: 10px 0;
+      position: relative;
+      text-align: center;
+      font-size: 36px;
+      font-family: 'Poppins', 'Inter';
+      font-weight: 600;
+      word-wrap: break-word;
+    }
+  } */
+.red{
+    color: red;
+}
+.btns:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+}  
+.sec{
+    margin: 20px;
+    padding: 15px;
+    margin-left: -15px;
+}
